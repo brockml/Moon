@@ -5,7 +5,7 @@ description:        "This blog provides tutorials for microbial ecologists to ga
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/microbial_logo.png'
-background:         'assets/img/ocean.jpg'
+background:         'assets/img/ocean_darker.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                "https://brockml.github.io"
