@@ -25,7 +25,7 @@ Maps allows us to display information about sampling locations and experimental 
 ---
 
 ## Getting Setup
-[![](/assets/img/resized_qgis_nlogo.png)](https://qgis.org/en/site/)
+[![](/assets/img/resized_qgis_nlogo2.png)](https://qgis.org/en/site/)
 
 Click on the logo above to go to the QGIS website where you can download the software.
 
