@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
+title: About this Site
+tags: [about, bioinformatics, statistics, mapping, computer languages]
 date: 2016-03-21
 comments: false
 ---
