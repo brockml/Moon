@@ -1,3 +1,11 @@
+---
+layout: page
+title: Basic Mapping
+tags: [QGIS, GIS, spatial data, mapping, vector data, raster data, graphics]
+date: 2018-05-23
+comments: false
+---
+
 ## Introduction
 Maps allows us to display information about sampling locations and experimental design. Often times, maps are overcrowded, the fonts are too small, or the symbols are difficult to differentiate between. Creating a map that is easily understood is essential for others to understand our research. QGIS is my go-to mapping program because it's available for most operating systems, it's open-source,and it's easy to manipulate the maps you create. With just a few clicks, you'll have a simple, beautiful map that displays your data in a graphically pleasing way. Popular, alternative tools for mapping include the package ggplot2 in R, ArcGIS, and Surfer.
 
