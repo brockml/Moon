@@ -5,12 +5,13 @@ tags: [about, bioinformatics, statistics, mapping, computer languages]
 date: 2018-05-22
 comments: false
 ---
-{% capture images %}
-https://github.com/brockml/brockml.github.io/blob/master/assets/img/sediment_core.png
-https://github.com/brockml/brockml.github.io/blob/master/assets/img/Brockml.png
-https://github.com/brockml/brockml.github.io/blob/master/assets/img/Multicorer.png
-{% endcapture %}
-{% include gallery images=images caption="test" cols=3 %} 
+
+<figure class="third">
+    <img src="/assets/img/sediment_core.png">
+    <img src="/images/img/Brockml.png">
+    <img src="/images/img/Multicorer.png">
+    <figcaption>Caption</figcaption>
+</figure>
 
 ## Introduction
 ---
