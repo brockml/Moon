@@ -8,8 +8,8 @@ comments: false
 
 <figure class="third">
     <img src="/assets/img/sediment_core.png">
-    <img src="/images/img/Brockml.png">
-    <img src="/images/img/Multicorer.png">
+    <img src="/assets/img/Brockml.png">
+    <img src="/assets/img/Multicorer.png">
 </figure>
 
 ## Introduction
