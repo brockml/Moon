@@ -30,3 +30,4 @@ Some of the topics that will be covered include:
 ## Disclaimer
 ---
 If there's anything graduate school has taught me, it's that there is rarely a "one right way" to do something. As such, keep in mind that there are alternatives to the analyses presented here that may be more suitable for your particular needs. 
+
