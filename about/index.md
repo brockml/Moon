@@ -5,10 +5,7 @@ tags: [about, bioinformatics, statistics, mapping, computer languages]
 date: 2018-05-22
 comments: false
 ---
-{% capture images %}
-https://github.com/brockml/brockml.github.io/blob/master/assets/img/sediment_core.png
-{% endcapture %}
-{% include gallery images=images caption="Sediment Core" cols=1 %}
+![alt text](https://github.com/brockml/brockml.github.io/blob/master/assets/img/sediment_core.png)
 
 ## Introduction
 ---
