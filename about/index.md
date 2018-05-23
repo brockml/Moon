@@ -5,8 +5,10 @@ tags: [about, bioinformatics, statistics, mapping, computer languages]
 date: 2018-05-22
 comments: false
 ---
-<figure class="half">
-    <a href="assets/img/sediment_core.png"><img src="/assets/img/sediment_core.png"></a>
+<figure class="third">
+    <img src="/assets/img/sediment_core.png">
+    <img src="/assets/img/Brockml.png">
+    <img src="assets/img/Multicorer.png">
 </figure>
 
 ## Introduction
