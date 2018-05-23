@@ -5,7 +5,11 @@ tags: [about, bioinformatics, statistics, mapping, computer languages]
 date: 2018-05-22
 comments: false
 ---
-    
+{% capture images %}
+https://github.com/brockml/brockml.github.io/blob/master/assets/img/sediment_core.png
+{% endcapture %}
+{% include gallery images=images caption="Sediment Core" cols=1 %}
+
 ## Introduction
 ---
 Hello and Welcome! I'm a graduate student at the University of Southern Mississippi studying the impacts of deep-sea historic shipwrecks on sediment microbiomes. To answer these questions, I use bioinformatics and statistical approaches. Reflecting back on my experience so far, I realized that while there are many skills that I still want/need to obtain there are also many skills that I have gained. Although I'm in no way an expert in the field (*yet*), I hope that sharing the information I have learned in an easily understood way will help others who are also new to the field. After all, sharing the information we have learned is the nature of science! 
