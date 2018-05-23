@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About this Site
+title: About
 tags: [about, bioinformatics, statistics, mapping, computer languages]
 date: 2018-05-22
 comments: false
