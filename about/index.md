@@ -10,7 +10,6 @@ comments: false
     <img src="/assets/img/sediment_core.png">
     <img src="/images/img/Brockml.png">
     <img src="/images/img/Multicorer.png">
-    <figcaption>Caption</figcaption>
 </figure>
 
 ## Introduction
