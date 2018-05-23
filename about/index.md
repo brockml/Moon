@@ -5,7 +5,7 @@ tags: [about, bioinformatics, statistics, mapping, computer languages]
 date: 2018-05-22
 comments: false
 ---
-figure: 'assets/img/sediment_core.png
+figure: 'assets/img/sediment_core.png'
 
 ## Introduction
 ---
