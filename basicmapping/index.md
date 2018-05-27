@@ -57,7 +57,9 @@ Additional files for mapping can be downloaded from [the natural earth](https://
 
 That's not a very pretty map... but also the state lines aren't showing up. This is because the layers are in the incorrect order. The map builds from the bottom layer up. 
 
-<img source="/assets/img/layers_perspective.png" width="133.38" height="188.97" </img>
+```
+![](/assets/img/layers_perspective.png)
+```
 
 For this map, the first layer is the coastline shapefile. The next layer is the ocean shapefile, then the state line shapefile, and the land shapefile. Since the land shapefile is on top of the state lines shapefile, the state lines don't appear on the map. This can be fixed by reordering the layers.
 
