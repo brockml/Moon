@@ -49,6 +49,8 @@ Additional files for mapping can be downloaded from [the natural earth](https://
 
 ![](/assets/img/rs_zoom.png)
 
+
+
 ![](/assets/img/GoMregion.png)
 
 4) Click the add vector layer icon and open the ne_10m_admin1_states_provinces_lines.shp file, the ne_10m_land.shp file, and the ne_10m_ocean.shp file. This map should appear in the viewing panel:
