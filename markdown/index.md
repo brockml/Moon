@@ -14,12 +14,12 @@ Markdown is a syntax used to format text. It controls the display of a document 
 ## Getting Setup
 There are a variety of markdown editors to choose from. The one that we will be using for this tutorial is Atom. It's cross platform, open source, and has over 7000 packages that can be installed to enhance the editor.
 
-[![](Atom_logo.png)](https://atom.io/)
+[![](/assets/img/Atom_logo.png)](https://atom.io/)
 
 Click the image above to go to Atom's website to download the software.
 After downloading, install the packages: markdown-preview-plus and toolbar-markdown-writer by clicking on Packages > Settings View > InstallPackages/Themes
 
-![](install_packages.png)
+![](assets/img/install_packages.png)
 
 Type the name of the package into the search bar and click Install.
 Open a new markdown file by pressing Command-N.
@@ -27,7 +27,7 @@ To preview the markdown document press Control-Shift-M.
 
 Your screen should now look like this:
 
-![](preview.png)
+![](assets/img/preview.png)
 
 ---
 
@@ -323,18 +323,18 @@ To insert an image:
 
 The rendered output:
 
-![](ship_deck.png)
+![](/assets/img/ship_deck.png)
 
 ### Images with Links
 To add a link to an image:
 
 ```
-[![](ship_deck.png)](https://github.com/brockml/brockml.github.io/blob/master/assets/img/ship_deck.png)
+[![](assets/img/ship_deck.png)](https://github.com/brockml/brockml.github.io/blob/master/assets/img/ship_deck.png)
 ```
 
 The rendered output:
 
-[![](ship_deck.png)](https://github.com/brockml/brockml.github.io/blob/master/assets/img/ship_deck.png)
+[![](assets/img/ship_deck.png)](https://github.com/brockml/brockml.github.io/blob/master/assets/img/ship_deck.png)
 
 ### Escaping Characters
 Use a backslash in front of a character to display a literal character that would've been used to format text in Markdown.
