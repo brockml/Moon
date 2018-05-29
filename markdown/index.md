@@ -104,14 +104,14 @@ __*both*__
 
 The rendered output:
 
-*italics* . 
-_italics_ . 
-**bold** . 
-__bold__ . 
-***both*** . 
-___both___ . 
-__*both*__ . 
-**_both_** . 
+*italics*  
+_italics_  
+**bold** 
+__bold__ 
+***both***  
+___both___  
+__*both*__  
+**_both_**  
 
 ### Strikethroughs
 Use two tildes before and after to strikethrough words
