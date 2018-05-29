@@ -62,6 +62,7 @@ Use Markdown language to format web pages.
 ```
 
 The rendered output:
+
 Markdown is a syntax used to format text.
 
 Use Markdown language to format web pages.
@@ -85,6 +86,7 @@ Use Markdown language to format web pages.
 ```
 
 The rendered output:
+
 Markdown is a syntax used to format text.
 Use Markdown language to format web pages.
 
@@ -103,13 +105,21 @@ __*both*__
 ```
 
 The rendered output:
+
 *italics*
+
 _italics_
+
 **bold**
+
 __bold__
+
 ***both***
+
 ___both___
+
 __*both*__
+
 **_both_**
 
 ### Strikethroughs
@@ -120,6 +130,7 @@ Use two tildes before and after to strikethrough words
 ```
 
 Rendered output:
+
 ~~Life does not exist on other planets.~~
 
 ### Lists
@@ -223,6 +234,7 @@ Use tick marks to denote something as code.
 ```
 
 The rendered output:
+
 `pwd`
 
 ### Code Blocks
@@ -285,6 +297,7 @@ Use colons to specify alignment.
 ```
 
 The rendered output:
+
 | Column 1 | Column 2 | Column 3 | Column 4 |
 | -------- | :------- | -------: | :------: |
 | default  |   left   |   right  | centered |
@@ -298,6 +311,7 @@ For more Markdown syntax go to [this site](https://www.markdownguide.org/).
 ```
 
 The rendered output:
+
 For more Markdown syntax go to [this site](https://www.markdownguide.org/).
 
 ### Images
@@ -308,6 +322,7 @@ To insert an image:
 ```
 
 The rendered output:
+
 ![](ship_deck.png)
 
 ### Images with Links
@@ -318,6 +333,7 @@ To add a link to an image:
 ```
 
 The rendered output:
+
 [![](ship_deck.png)](https://github.com/brockml/brockml.github.io/blob/master/assets/img/ship_deck.png)
 
 ### Escaping Characters
@@ -328,6 +344,7 @@ Use a backslash in front of a character to display a literal character that woul
 ```
 
 The rendered output:
+
 \- This dash does not signify an unordered list.
 
 ---
