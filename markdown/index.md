@@ -373,3 +373,4 @@ The rendered output:
 ---
 
 ## Formatting Mathematical Expressions
+$ \binom{n}{k} = \frac{n!}{k!(n-k)!} $
