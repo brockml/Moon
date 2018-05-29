@@ -36,7 +36,6 @@ Additional files for mapping can be downloaded from [the natural earth](https://
 ---
 
 ## Making a Map
-## Making a Map
 1) Open QGIS and click the add vector layer icon.
 
 ![](/assets/img/rs_addvectorlayer.png)
