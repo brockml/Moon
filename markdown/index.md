@@ -106,8 +106,8 @@ The rendered output:
 
 *italics*  
 _italics_  
-**bold** 
-__bold__ 
+**bold**  
+__bold__  
 ***both***  
 ___both___  
 __*both*__  
