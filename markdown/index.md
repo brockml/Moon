@@ -92,13 +92,13 @@ Use Markdown language to format web pages.
 Add emphasis to words using italics, bold, or both.
 
 ```
-*italics*
-_italics_
-**bold**
-__bold__
-***both***
-___both___
-__*both*__
+*italics* 
+_italics_ 
+**bold** 
+__bold__ 
+***both*** 
+___both___ 
+__*both*__ 
 **_both_**
 ```
 
