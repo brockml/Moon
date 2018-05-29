@@ -19,7 +19,7 @@ There are a variety of markdown editors to choose from. The one that we will be 
 Click the image above to go to Atom's website to download the software.
 After downloading, install the packages: markdown-preview-plus and toolbar-markdown-writer by clicking on Packages > Settings View > InstallPackages/Themes
 
-![](assets/img/install_packages.png)
+![](/assets/img/install_packages.png)
 
 Type the name of the package into the search bar and click Install.
 Open a new markdown file by pressing Command-N.
@@ -27,7 +27,7 @@ To preview the markdown document press Control-Shift-M.
 
 Your screen should now look like this:
 
-![](assets/img/preview.png)
+![](/assets/img/preview.png)
 
 ---
 
@@ -43,14 +43,12 @@ The number of signs you use corresponds to the heading level.
 #### Heading Level 5
 ```
 
----
 The rendered output:
 # Heading Level 1
 ## Heading Level 2
 ### Heading Level 3
 #### Heading Level 4
 #### Heading Level 5
----
 
 ### Paragraphs
 Separate lines of text with a blank line.
@@ -106,21 +104,14 @@ __*both*__
 
 The rendered output:
 
-*italics*
-
-_italics_
-
-**bold**
-
-__bold__
-
-***both***
-
-___both___
-
-__*both*__
-
-**_both_**
+*italics* . 
+_italics_ . 
+**bold** . 
+__bold__ . 
+***both*** . 
+___both___ . 
+__*both*__ . 
+**_both_** . 
 
 ### Strikethroughs
 Use two tildes before and after to strikethrough words
@@ -329,12 +320,12 @@ The rendered output:
 To add a link to an image:
 
 ```
-[![](assets/img/ship_deck.png)](https://github.com/brockml/brockml.github.io/blob/master/assets/img/ship_deck.png)
+[![](/assets/img/ship_deck.png)](https://github.com/brockml/brockml.github.io/blob/master/assets/img/ship_deck.png)
 ```
 
 The rendered output:
 
-[![](assets/img/ship_deck.png)](https://github.com/brockml/brockml.github.io/blob/master/assets/img/ship_deck.png)
+[![](/assets/img/ship_deck.png)](https://github.com/brockml/brockml.github.io/blob/master/assets/img/ship_deck.png)
 
 ### Escaping Characters
 Use a backslash in front of a character to display a literal character that would've been used to format text in Markdown.
