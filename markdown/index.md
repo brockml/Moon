@@ -29,6 +29,8 @@ Your screen should now look like this:
 
 ![](/assets/img/preview.png)
 
+Begin typing in the 'untitled' tab and the formatted text will appear in the 'untitled Preview' tab. 
+
 ---
 
 ## Basic Syntax
