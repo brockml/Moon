@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Markdown
+layout: post
+title: Formatting Mathematical Expressions and Equations
 tags: [markdown, syntax, formatting, atom, html, md, LaTeX]
 date: 2018-05-29
 comments: false
