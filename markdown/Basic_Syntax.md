@@ -6,6 +6,8 @@ date: 2018-05-29
 comments: false
 ---
 
+{%include _markdown_basic_syntax.html%}  
+
 ## Introduction
 Markdown is a syntax used to format text. It controls the display of a document and allows you to format words, create lists, add images, and more. The syntax uses plain text to make text easy to read, write, and format. Markdown files can be easily converted to HTML for publishing on the web. In fact, it's how this web page was created!
 
