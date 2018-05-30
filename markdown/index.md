@@ -372,12 +372,10 @@ The rendered output:
 
 ---
 
-## Formatting Mathematical Expressions
-
+## Formatting Mathematical Expressions and Equations
 Markdown uses standard LaTeX syntax for mathematical expressions. LaTeX is a type-setting system that is the standard for publication of scientific documents. I'm going to go through how to write common expressions and format equations, but for more complex things please consult [this LaTeX guide](https://www.sharelatex.com/learn/Mathematical_expressions).
 
 ### Inline and Displayed Expressions
-
 Mathematical Expressions and equations can be expressed either inline with text using `$` or be displayed on their own line by using `$$`
 
 ```
@@ -387,23 +385,23 @@ Displayed: To calculate the kinetic energy of an object use the formula: $$KE = 
 
 The rendered output:
 
-Inline: Atmospheric $$CO_2$$ concentration is currently 410 ppm.  
+Inline: Atmospheric $$CO_2$$ concentration is currently 410 ppm.
 Displayed: To calculate the kinetic energy of an object use the formula: $$KE = \frac{1}{2}mv^2$$
 
 ---
 
 ### Common Math Symbols
 
-#### Greek letters:
+#### Greek letters
 
 | Syntax | Rendered Output|
 | :----: | :---: |
-| `$\alpha$` | $$\alpha$$ |
+| `$\alpha$` | $$alpha$$ |
 | `$\beta$` | $$\beta$$ |
 | `$\gamma$` | $$\gamma$$ |
 | `$\rho$` | $$\rho$$ |
 
-#### Binary operators:
+#### Binary operators
 
 | Syntax | Rendered Output|
 | :----: | :---: |
@@ -412,7 +410,7 @@ Displayed: To calculate the kinetic energy of an object use the formula: $$KE = 
 | `$\pm$`  |  $$\pm$$ |
 | `$\mp$`   | $$\mp$$  |
 
-#### Relation operators:
+#### Relation operators
 
 | Syntax | Rendered Output|
 | :----: | :---: |
@@ -424,7 +422,7 @@ Displayed: To calculate the kinetic energy of an object use the formula: $$KE = 
 | `$\approx$`   |  $$\approx$$ |
 | `$\propto$`   |  $$\propto$$ |
 
-#### Arrow Symbols:
+#### Arrow Symbols
 
 | Syntax | Rendered Output|
 | :----: | :---: |
@@ -436,11 +434,12 @@ Displayed: To calculate the kinetic energy of an object use the formula: $$KE = 
 | `$\rightharpoonup$`   |  $$\rightharpoonup$$ |
 | `$\rightharpoondown$`   |  $$\rightharpoondown$$ |
 
-#### Other Symbols:
+#### Other Symbols
 
 | Syntax | Rendered Output|
 | :----: | :---: |
 | `$\infty$`  | $$\infty$$  |
+| `$\pi$`   | $$\pi$$  |
 | `$\sum$`   | $$\sum$$  |
 | `$\prod$`   | $$\prod$$  |
 | `$\coprod$`   | $$\coprod$$  |
@@ -449,7 +448,7 @@ Displayed: To calculate the kinetic energy of an object use the formula: $$KE = 
 | `$\cos$`   | $$\cos$$  |
 | `$\ln$`   | $$\ln$$  |
 
-#### Accents:
+#### Accents
 
 | Syntax | Rendered Output|
 | :----: | :---: |
@@ -469,6 +468,7 @@ Displayed: To calculate the kinetic energy of an object use the formula: $$KE = 
 ### Subscripts and Superscripts
 Use an underscore to denote a subscript and a caret to denote a superscript
 
+#### Basic subscripts and superscripts:
 ```
 Subscript: $H_2O_2$
 Superscript: $a^2 + b^2 = c^2$
@@ -477,11 +477,11 @@ Combined: $_1^2H$ or $a_3^2$
 
 The rendered output:
 
-Subscript: $$H_2O_2$$  
-Superscript: $$a^2 + b^2 = c^2$$  
+Subscript: $$H_2O_2$$
+Superscript: $$a^2 + b^2 = c^2$$
 Combined: $$_1^2H$$ or $$a_3^2$$
 
-Surround long subscripts and superscripts with brackets.
+#### Long subscripts and superscripts:
 
 ```
 Subscript: $y_{ij}$
@@ -491,11 +491,11 @@ Combined: $_{80}^{200}Hg$
 
 The rendered output:
 
-Subscript: $$y_{ij}$$  
-Superscript: $$a^{245}$$  
+Subscript: $$y_{ij}$$
+Superscript: $$a^{245}$$
 Combined: $$_{80}^{200}Hg$$
 
-Subscripts and superscripts can be nested.
+#### Nested subscripts and superscripts:
 
 ```
 $(a-b^2)^2$
@@ -505,4 +505,86 @@ The rendered output:
 
 $$(a-b^2)^2$$
 
+#### Operators using subscripts and supscripts:
+
+##### Sums:
+
+```
+$\sum_{i=1}^{\infty}$
+```
+
+The rendered output:
+$$\sum_{i=1}^{\infty}$$
+
+##### Products:
+
+```
+$\prod_p$
+```
+
+The rendered output:
+
+$$\prod_p$$
+
+##### Integrals:
+
+```
+$\int_{i=0}^n$
+```
+
+The rendered output:
+
+$$\int_{i=0}^n$$
+
+##### Limits:
+
+```
+$\lim_{x\to\infty} f(x)$
+```
+
+The rendered output:
+
+$$\lim_{x\to\infty} f(x)$$
+
 ---
+
+### Fractions
+
+#### Basic Fractions:
+The first pair of braces is the numerator, the second is the denominator.
+
+```
+$\frac{1}{4}$
+$\frac{1}{1-x}^2$
+$\frac{1}{(1-x)^2}$
+```
+
+The rendered output:
+
+$$\frac{1}{4}$$
+$$\frac{1}{1-x}^2$$
+$$\frac{1}{(1-x)^2}$$
+
+#### Nested Fractions:
+
+```
+$\frac{1+\frac{a}{y}}{z}$
+$\frac{1+\frac{a}{y}}{\frac{z}{2}}$
+```
+
+The rendered output:
+
+$$\frac{1+\frac{a}{y}}{z}$$
+$$\frac{1+\frac{a}{y}}{\frac{z}{2}}$$
+
+---
+
+### Binomials
+
+```
+$\binom{n}{k} = \frac{n!}{k!(n-k)!}$
+```
+
+The rendered output:
+
+$$\binom{n}{k} = \frac{n!}{k!(n-k)!}$$
