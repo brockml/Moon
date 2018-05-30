@@ -373,11 +373,11 @@ The rendered output:
 ---
 
 ## Formatting Mathematical Expressions
-$$ \binom{n}{k} = \frac{n!}{k!(n-k)!} $$
 
 Markdown uses standard LaTeX syntax for mathematical expressions. LaTeX is a type-setting system that is the standard for publication of scientific documents. I'm going to go through how to write common expressions and format equations, but for more complex things please consult [this LaTeX guide](https://www.sharelatex.com/learn/Mathematical_expressions).
 
 ### Inline and Displayed Expressions
+
 Mathematical Expressions and equations can be expressed either inline with text using `$` or be displayed on their own line by using `$$`
 
 ```
@@ -477,8 +477,8 @@ Combined: $_1^2H$ or $a_3^2$
 
 The rendered output:
 
-Subscript: $$H_2O_2$$
-Superscript: $$a^2 + b^2 = c^2$$
+Subscript: $$H_2O_2$$  
+Superscript: $$a^2 + b^2 = c^2$$  
 Combined: $$_1^2H$$ or $$a_3^2$$
 
 Surround long subscripts and superscripts with brackets.
@@ -491,8 +491,8 @@ Combined: $_{80}^{200}Hg$
 
 The rendered output:
 
-Subscript: $$y_{ij}$$
-Superscript: $$a^{245}$$
+Subscript: $$y_{ij}$$  
+Superscript: $$a^{245}$$  
 Combined: $$_{80}^{200}Hg$$
 
 Subscripts and superscripts can be nested.
