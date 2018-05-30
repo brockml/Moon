@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Markdown
 tags: [markdown, syntax, formatting, atom, html, md, LaTeX]
 date: 2018-05-29
