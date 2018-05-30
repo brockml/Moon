@@ -564,7 +564,9 @@ $\frac{1}{(1-x)^2}$
 The rendered output:
 
 $$\frac{1}{4}$$  
+
 $$\frac{1}{1-x}^2$$  
+
 $$\frac{1}{(1-x)^2}$$
 
 #### Nested Fractions:
@@ -577,6 +579,7 @@ $\frac{1+\frac{a}{y}}{\frac{z}{2}}$
 The rendered output:
 
 $$\frac{1+\frac{a}{y}}{z}$$  
+
 $$\frac{1+\frac{a}{y}}{\frac{z}{2}}$$
 
 ---
