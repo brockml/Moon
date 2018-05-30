@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Markdown
+title: Basic Syntax
 tags: [markdown, syntax, formatting, atom, html, md, LaTeX]
 date: 2018-05-29
 comments: false
