@@ -385,8 +385,9 @@ Displayed: To calculate the kinetic energy of an object use the formula: $$KE = 
 
 The rendered output:
 
-Inline: Atmospheric $$CO_2$$ concentration is currently 410 ppm.
-Displayed: To calculate the kinetic energy of an object use the formula: $$KE = \frac{1}{2}mv^2$$
+Inline: Atmospheric $$CO_2$$ concentration is currently 410 ppm.  
+Displayed: To calculate the kinetic energy of an object use the formula:  
+$$KE = \frac{1}{2}mv^2$$
 
 ---
 
@@ -477,8 +478,8 @@ Combined: $_1^2H$ or $a_3^2$
 
 The rendered output:
 
-Subscript: $$H_2O_2$$
-Superscript: $$a^2 + b^2 = c^2$$
+Subscript: $$H_2O_2$$  
+Superscript: $$a^2 + b^2 = c^2$$  
 Combined: $$_1^2H$$ or $$a_3^2$$
 
 #### Long subscripts and superscripts:
@@ -491,8 +492,8 @@ Combined: $_{80}^{200}Hg$
 
 The rendered output:
 
-Subscript: $$y_{ij}$$
-Superscript: $$a^{245}$$
+Subscript: $$y_{ij}$$  
+Superscript: $$a^{245}$$  
 Combined: $$_{80}^{200}Hg$$
 
 #### Nested subscripts and superscripts:
@@ -505,7 +506,7 @@ The rendered output:
 
 $$(a-b^2)^2$$
 
-#### Operators using subscripts and supscripts:
+#### Operators using subscripts and superscripts:
 
 ##### Sums:
 
@@ -561,8 +562,8 @@ $\frac{1}{(1-x)^2}$
 
 The rendered output:
 
-$$\frac{1}{4}$$
-$$\frac{1}{1-x}^2$$
+$$\frac{1}{4}$$  
+$$\frac{1}{1-x}^2$$  
 $$\frac{1}{(1-x)^2}$$
 
 #### Nested Fractions:
@@ -574,7 +575,7 @@ $\frac{1+\frac{a}{y}}{\frac{z}{2}}$
 
 The rendered output:
 
-$$\frac{1+\frac{a}{y}}{z}$$
+$$\frac{1+\frac{a}{y}}{z}$$  
 $$\frac{1+\frac{a}{y}}{\frac{z}{2}}$$
 
 ---
