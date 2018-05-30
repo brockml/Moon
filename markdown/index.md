@@ -387,13 +387,14 @@ The rendered output:
 
 Inline: Atmospheric $$CO_2$$ concentration is currently 410 ppm.  
 Displayed: To calculate the kinetic energy of an object use the formula:  
+
 $$KE = \frac{1}{2}mv^2$$
 
 ---
 
 ### Common Math Symbols
 
-#### Greek letters
+#### Greek letters:
 
 | Syntax | Rendered Output|
 | :----: | :---: |
@@ -402,7 +403,7 @@ $$KE = \frac{1}{2}mv^2$$
 | `$\gamma$` | $$\gamma$$ |
 | `$\rho$` | $$\rho$$ |
 
-#### Binary operators
+#### Binary operators:
 
 | Syntax | Rendered Output|
 | :----: | :---: |
@@ -411,7 +412,7 @@ $$KE = \frac{1}{2}mv^2$$
 | `$\pm$`  |  $$\pm$$ |
 | `$\mp$`   | $$\mp$$  |
 
-#### Relation operators
+#### Relation operators:
 
 | Syntax | Rendered Output|
 | :----: | :---: |
@@ -423,7 +424,7 @@ $$KE = \frac{1}{2}mv^2$$
 | `$\approx$`   |  $$\approx$$ |
 | `$\propto$`   |  $$\propto$$ |
 
-#### Arrow Symbols
+#### Arrow Symbols:
 
 | Syntax | Rendered Output|
 | :----: | :---: |
@@ -435,7 +436,7 @@ $$KE = \frac{1}{2}mv^2$$
 | `$\rightharpoonup$`   |  $$\rightharpoonup$$ |
 | `$\rightharpoondown$`   |  $$\rightharpoondown$$ |
 
-#### Other Symbols
+#### Other Symbols:
 
 | Syntax | Rendered Output|
 | :----: | :---: |
@@ -449,7 +450,7 @@ $$KE = \frac{1}{2}mv^2$$
 | `$\cos$`   | $$\cos$$  |
 | `$\ln$`   | $$\ln$$  |
 
-#### Accents
+#### Accents:
 
 | Syntax | Rendered Output|
 | :----: | :---: |
@@ -508,7 +509,7 @@ $$(a-b^2)^2$$
 
 #### Operators using subscripts and superscripts:
 
-##### Sums:
+**Sums:**
 
 ```
 $\sum_{i=1}^{\infty}$
@@ -517,7 +518,7 @@ $\sum_{i=1}^{\infty}$
 The rendered output:
 $$\sum_{i=1}^{\infty}$$
 
-##### Products:
+**Products:**
 
 ```
 $\prod_p$
@@ -527,7 +528,7 @@ The rendered output:
 
 $$\prod_p$$
 
-##### Integrals:
+**Integrals:**
 
 ```
 $\int_{i=0}^n$
@@ -537,7 +538,7 @@ The rendered output:
 
 $$\int_{i=0}^n$$
 
-##### Limits:
+**Limits:**
 
 ```
 $\lim_{x\to\infty} f(x)$
