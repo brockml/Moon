@@ -14,12 +14,12 @@ Markdown is a syntax used to format text. It controls the display of a document 
 ## Getting Setup
 There are a variety of markdown editors to choose from. The one that we will be using for this tutorial is Atom. It's cross platform, open source, and has over 7000 packages that can be installed to enhance the editor.
 
-[![](Atom_logo.png)](https://atom.io/)
+[![](/assets/img/Atom_logo.png)](https://atom.io/)
 
 Click the image above to go to Atom's website to download the software.
 After downloading, install the packages: markdown-preview-plus and toolbar-markdown-writer by clicking on Packages > Settings View > InstallPackages/Themes
 
-![](install_packages.png)
+![](/assets/img/install_packages.png)
 
 Type the name of the package into the search bar and click Install.
 Open a new markdown file by pressing Command-N.
@@ -27,7 +27,7 @@ To preview the markdown document press Control-Shift-M.
 
 Your screen should now look like this:
 
-![](preview.png)
+![](/assets/img/preview.png)
 
 Begin typing in the 'untitled' tab and the formatted text will appear in the 'untitled Preview' tab.
 
@@ -47,6 +47,7 @@ The number of signs you use corresponds to the heading level.
 
 ---
 The rendered output:
+
 # Heading Level 1
 ## Heading Level 2
 ### Heading Level 3
@@ -64,6 +65,7 @@ Use Markdown language to format web pages.
 ```
 
 The rendered output:
+
 Markdown is a syntax used to format text.
 
 Use Markdown language to format web pages.
@@ -76,6 +78,7 @@ Add a ```>``` in front of a paragraph.
 ```
 
 The rendered output:
+
 > Markdown is a syntax used to format text. It controls the display of a document and allows you to format words, create lists, add images, and more. The syntax uses plain text to make text easy to read, write, and format. Markdown files can be easily converted to HTML for publishing on the web. In fact, it's how this web page was created!
 
 ### Line Breaks
@@ -87,7 +90,9 @@ Use Markdown language to format web pages.
 ```
 
 The rendered output:
+
 Markdown is a syntax used to format text.
+
 Use Markdown language to format web pages.
 
 ### Emphasis
@@ -105,13 +110,14 @@ __*both*__
 ```
 
 The rendered output:
-*italics*
-_italics_
-**bold**
-__bold__
-***both***
-___both___
-__*both*__
+
+*italics*  
+_italics_  
+**bold**  
+__bold__  
+***both***  
+___both___  
+__*both*__  
 **_both_**
 
 ### Strikethroughs
@@ -122,6 +128,7 @@ Use two tildes before and after to strikethrough words
 ```
 
 Rendered output:
+
 ~~Life does not exist on other planets.~~
 
 ### Lists
@@ -135,6 +142,7 @@ Use numbers followed by periods.
 ```
 
 The rendered output:
+
 1. First things First
 2. Second things Second
 3. Third things Third
@@ -150,6 +158,7 @@ Indent items to create a nested list.
 ```
 
 The rendered output:
+
 1. First things First
     1. This thing too
     2. Also this
@@ -174,6 +183,7 @@ Use asterisks, dashes, or plus signs.
 ```
 
 The rendered output:
+
 * First things First
 * Second things Second
 * Third things Third
@@ -197,6 +207,7 @@ Indent items to create a nested list.
 ```
 
 The rendered output:
+
 * First things First
   - This thing tool
   - Also this
@@ -225,12 +236,14 @@ Use tick marks to denote something as code.
 ```
 
 The rendered output:
+
 `pwd`
 
 ### Code Blocks
 Use three tick marks (```) or three tildes (~~~) before and after code to create code blocks.
 
 The rendered output:
+
 ```
 ```
 
@@ -300,6 +313,7 @@ For more Markdown syntax go to [this site](https://www.markdownguide.org/).
 ```
 
 The rendered output:
+
 For more Markdown syntax go to [this site](https://www.markdownguide.org/).
 
 ### Images
@@ -310,17 +324,17 @@ To insert an image:
 ```
 
 The rendered output:
-![](ship_deck.png)
+![](/assets/img/ship_deck.png)
 
 ### Images with Links
 To add a link to an image:
 
 ```
-[![](ship_deck.png)](https://github.com/brockml/brockml.github.io/blob/master/assets/img/ship_deck.png)
+[![](/assets/img/ship_deck.png)](https://github.com/brockml/brockml.github.io/blob/master/assets/img/ship_deck.png)
 ```
 
 The rendered output:
-[![](ship_deck.png)](https://github.com/brockml/brockml.github.io/blob/master/assets/img/ship_deck.png)
+[![](/assets/img/ship_deck.png)](https://github.com/brockml/brockml.github.io/blob/master/assets/img/ship_deck.png)
 
 ### Escaping Characters
 Use a backslash in front of a character to display a literal character that would've been used to format text in Markdown.
@@ -330,6 +344,7 @@ Use a backslash in front of a character to display a literal character that woul
 ```
 
 The rendered output:
+
 \- This dash does not signify an unordered list.
 
 ---
@@ -348,13 +363,15 @@ Displayed: To calculate the kinetic energy of an object use the formula: $$KE = 
 The rendered output:
 
 Inline: Atmospheric $$CO_2$$ concentration is currently 410 ppm.
-Displayed: To calculate the kinetic energy of an object use the formula: $$KE = \frac{1}{2}mv^2$$
+Displayed: To calculate the kinetic energy of an object use the formula: 
+
+$$KE = \frac{1}{2}mv^2$$
 
 ---
 
 ### Common Math Symbols
 
-#### Greek letters
+#### Greek letters:
 
 | Syntax | Rendered Output|
 | :----: | :---: |
@@ -363,7 +380,7 @@ Displayed: To calculate the kinetic energy of an object use the formula: $$KE = 
 | `$\gamma$` | $$\gamma$$ |
 | `$\rho$` | $$\rho$$ |
 
-#### Binary operators
+#### Binary operators:
 
 | Syntax | Rendered Output|
 | :----: | :---: |
@@ -372,7 +389,7 @@ Displayed: To calculate the kinetic energy of an object use the formula: $$KE = 
 | `$\pm$`  |  $$\pm$$ |
 | `$\mp$`   | $$\mp$$  |
 
-#### Relation operators
+#### Relation operators:
 
 | Syntax | Rendered Output|
 | :----: | :---: |
@@ -384,7 +401,7 @@ Displayed: To calculate the kinetic energy of an object use the formula: $$KE = 
 | `$\approx$`   |  $$\approx$$ |
 | `$\propto$`   |  $$\propto$$ |
 
-#### Arrow Symbols
+#### Arrow Symbols:
 
 | Syntax | Rendered Output|
 | :----: | :---: |
@@ -396,7 +413,7 @@ Displayed: To calculate the kinetic energy of an object use the formula: $$KE = 
 | `$\rightharpoonup$`   |  $$\rightharpoonup$$ |
 | `$\rightharpoondown$`   |  $$\rightharpoondown$$ |
 
-#### Other Symbols
+#### Other Symbols:
 
 | Syntax | Rendered Output|
 | :----: | :---: |
@@ -410,7 +427,7 @@ Displayed: To calculate the kinetic energy of an object use the formula: $$KE = 
 | `$\cos$`   | $$\cos$$  |
 | `$\ln$`   | $$\ln$$  |
 
-#### Accents
+#### Accents:
 
 | Syntax | Rendered Output|
 | :----: | :---: |
@@ -439,8 +456,8 @@ Combined: $_1^2H$ or $a_3^2$
 
 The rendered output:
 
-Subscript: $$H_2O_2$$
-Superscript: $$a^2 + b^2 = c^2$$
+Subscript: $$H_2O_2$$  
+Superscript: $$a^2 + b^2 = c^2$$  
 Combined: $$_1^2H$$ or $$a_3^2$$
 
 #### Long subscripts and superscripts:
@@ -453,8 +470,8 @@ Combined: $_{80}^{200}Hg$
 
 The rendered output:
 
-Subscript: $$y_{ij}$$
-Superscript: $$a^{245}$$
+Subscript: $$y_{ij}$$  
+Superscript: $$a^{245}$$  
 Combined: $$_{80}^{200}Hg$$
 
 #### Nested subscripts and superscripts:
@@ -467,18 +484,19 @@ The rendered output:
 
 $$(a-b^2)^2$$
 
-#### Operators using subscripts and supscripts:
+#### Operators using subscripts and superscripts:
 
-##### Sums:
+**Sums:**
 
 ```
 $\sum_{i=1}^{\infty}$
 ```
 
 The rendered output:
+
 $$\sum_{i=1}^{\infty}$$
 
-##### Products:
+**Products:**
 
 ```
 $\prod_p$
@@ -488,7 +506,7 @@ The rendered output:
 
 $$\prod_p$$
 
-##### Integrals:
+**Integrals:**
 
 ```
 $\int_{i=0}^n$
@@ -498,7 +516,7 @@ The rendered output:
 
 $$\int_{i=0}^n$$
 
-##### Limits:
+**Limits:**
 
 ```
 $\lim_{x\to\infty} f(x)$
@@ -524,7 +542,9 @@ $\frac{1}{(1-x)^2}$
 The rendered output:
 
 $$\frac{1}{4}$$
+
 $$\frac{1}{1-x}^2$$
+
 $$\frac{1}{(1-x)^2}$$
 
 #### Nested Fractions:
@@ -537,6 +557,7 @@ $\frac{1+\frac{a}{y}}{\frac{z}{2}}$
 The rendered output:
 
 $$\frac{1+\frac{a}{y}}{z}$$
+
 $$\frac{1+\frac{a}{y}}{\frac{z}{2}}$$
 
 ---
