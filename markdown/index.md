@@ -387,82 +387,82 @@ Displayed: To calculate the kinetic energy of an object use the formula: $$KE = 
 
 The rendered output:
 
-Inline: Atmospheric $CO_2$ concentration is currently 410 ppm.
+Inline: Atmospheric $$CO_2$$ concentration is currently 410 ppm.  
 Displayed: To calculate the kinetic energy of an object use the formula: $$KE = \frac{1}{2}mv^2$$
 
 ---
 
 ### Common Math Symbols
 
-#### Greek letters
+#### Greek letters:
 
 | Syntax | Rendered Output|
 | :----: | :---: |
-| `$\alpha$` | $\alpha$ |
-| `$\beta$` | $\beta$ |
-| `$\gamma$` | $\gamma$ |
-| `$\rho$` | $\rho$ |
+| `$\alpha$` | $$\alpha$$ |
+| `$\beta$` | $$\beta$$ |
+| `$\gamma$` | $$\gamma$$ |
+| `$\rho$` | $$\rho$$ |
 
-#### Binary operators
-
-| Syntax | Rendered Output|
-| :----: | :---: |
-| `$\times$`   | $\times$  |
-| `$\div$`   | $\div$  |
-| `$\pm$`  |  $\pm$ |
-| `$\mp$`   | $\mp$  |
-
-#### Relation operators
+#### Binary operators:
 
 | Syntax | Rendered Output|
 | :----: | :---: |
-| `$\leq$`   | $\leq$  |
-| `$\geq$`   |  $\geq$ |
-| `$\equiv$`   | $\equiv$  |
-| `$\sim$`   |  $\sim$ |
-| `$\simeq$`   | $\simeq$  |
-| `$\approx$`   |  $\approx$ |
-| `$\propto$`   |  $\propto$ |
+| `$\times$`   | $$\times$$  |
+| `$\div$`   | $$\div$$  |
+| `$\pm$`  |  $$\pm$$ |
+| `$\mp$`   | $$\mp$$  |
 
-#### Arrow Symbols
+#### Relation operators:
 
 | Syntax | Rendered Output|
 | :----: | :---: |
-| `$\leftarrow$`   | $\leftarrow$  |
-| `$\rightarrow$`  |  $\rightarrow$ |
-| `$\leftrightarrow$`   |  $\leftrightarrow$ |
-| `$\leftharpoonup$`   | $\leftharpoonup$  |
-| `$\leftharpoondown$`   | $\leftharpoondown$  |
-| `$\rightharpoonup$`   |  $\rightharpoonup$ |
-| `$\rightharpoondown$`   |  $\rightharpoondown$ |
+| `$\leq$`   | $$\leq$$  |
+| `$\geq$`   |  $$\geq$$ |
+| `$\equiv$`   | $$\equiv$$  |
+| `$\sim$`   |  $$\sim$$ |
+| `$\simeq$`   | $$\simeq$$  |
+| `$\approx$`   |  $$\approx$$ |
+| `$\propto$`   |  $$\propto$$ |
 
-#### Other Symbols
-
-| Syntax | Rendered Output|
-| :----: | :---: |
-| `$\infty$`  | $\infty$  |
-| `$\sum$`   | $\sum$  |
-| `$\prod$`   | $\prod$  |
-| `$\coprod$`   | $\coprod$  |
-| `$\int$`   | $\int$  |
-| `$\oint$`   | $\oint$  |
-| `$\cos$`   | $\cos$  |
-| `$\ln$`   | $\ln$  |
-
-#### Accents
+#### Arrow Symbols:
 
 | Syntax | Rendered Output|
 | :----: | :---: |
-| `$\hat{a}$`   | $\hat{a}$  |
-| `$\check{a}$`  | $\check{a}$  |
-| `$\acute{a}$`   | $\acute{a}$  |
-| `$\grave{a}$`   | $\grave{a}$  |
-| `$\bar{a}$`   |  $\bar{a}$ |
-| `$\vec{a}$`   |  $\vec{a}$ |
-| `$\dot{a}$`   |  $\dot{a}$ |
-| `$\ddot{a}$`   | $\ddot{a}$  |
-| `$\breve{a}$`   | $\breve{a}$  |
-| `$\tilde{a}$`   |  $\tilde{a}$ |
+| `$\leftarrow$`   | $$\leftarrow$$  |
+| `$\rightarrow$`  |  $$\rightarrow$$ |
+| `$\leftrightarrow$`   |  $$\leftrightarrow$$ |
+| `$\leftharpoonup$`   | $$\leftharpoonup$$  |
+| `$\leftharpoondown$`   | $$\leftharpoondown$$  |
+| `$\rightharpoonup$`   |  $$\rightharpoonup$$ |
+| `$\rightharpoondown$`   |  $$\rightharpoondown$$ |
+
+#### Other Symbols:
+
+| Syntax | Rendered Output|
+| :----: | :---: |
+| `$\infty$`  | $$\infty$$  |
+| `$\sum$`   | $$\sum$$  |
+| `$\prod$`   | $$\prod$$  |
+| `$\coprod$`   | $$\coprod$$  |
+| `$\int$`   | $$\int$$  |
+| `$\oint$`   | $$\oint$$  |
+| `$\cos$`   | $$\cos$$  |
+| `$\ln$`   | $$\ln$$  |
+
+#### Accents:
+
+| Syntax | Rendered Output|
+| :----: | :---: |
+| `$\hat{a}$`   | $$\hat{a}$$  |
+| `$\check{a}$`  | $$\check{a}$$  |
+| `$\acute{a}$`   | $$\acute{a}$$  |
+| `$\grave{a}$`   | $$\grave{a}$$  |
+| `$\bar{a}$`   |  $$\bar{a}$$ |
+| `$\vec{a}$`   |  $$\vec{a}$$ |
+| `$\dot{a}$`   |  $$\dot{a}$$ |
+| `$\ddot{a}$`   | $$\ddot{a}$$  |
+| `$\breve{a}$`   | $$\breve{a}$$  |
+| `$\tilde{a}$`   |  $$\tilde{a}$$ |
 
 ---
 
@@ -477,9 +477,9 @@ Combined: $_1^2H$ or $a_3^2$
 
 The rendered output:
 
-Subscript: $H_2O_2$
-Superscript: $a^2 + b^2 = c^2$
-Combined: $_1^2H$ or $a_3^2$
+Subscript: $$H_2O_2$$
+Superscript: $$a^2 + b^2 = c^2$$
+Combined: $$_1^2H$$ or $$a_3^2$$
 
 Surround long subscripts and superscripts with brackets.
 
@@ -491,9 +491,9 @@ Combined: $_{80}^{200}Hg$
 
 The rendered output:
 
-Subscript: $y_{ij}$
-Superscript: $a^{245}$
-Combined: $_{80}^{200}Hg$
+Subscript: $$y_{ij}$$
+Superscript: $$a^{245}$$
+Combined: $$_{80}^{200}Hg$$
 
 Subscripts and superscripts can be nested.
 
@@ -503,6 +503,6 @@ $(a-b^2)^2$
 
 The rendered output:
 
-$(a-b^2)^2$
+$$(a-b^2)^2$$
 
 ---
