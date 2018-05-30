@@ -45,7 +45,6 @@ The number of signs you use corresponds to the heading level.
 #### Heading Level 5
 ```
 
----
 The rendered output:
 
 # Heading Level 1
@@ -53,6 +52,7 @@ The rendered output:
 ### Heading Level 3
 #### Heading Level 4
 #### Heading Level 5
+
 ---
 
 ### Paragraphs
@@ -70,6 +70,8 @@ Markdown is a syntax used to format text.
 
 Use Markdown language to format web pages.
 
+---
+
 ### Blockquotes
 Add a ```>``` in front of a paragraph.
 
@@ -80,6 +82,8 @@ Add a ```>``` in front of a paragraph.
 The rendered output:
 
 > Markdown is a syntax used to format text. It controls the display of a document and allows you to format words, create lists, add images, and more. The syntax uses plain text to make text easy to read, write, and format. Markdown files can be easily converted to HTML for publishing on the web. In fact, it's how this web page was created!
+
+---
 
 ### Line Breaks
 End a line with two or more spaces and then press return.
@@ -94,6 +98,8 @@ The rendered output:
 Markdown is a syntax used to format text.
 
 Use Markdown language to format web pages.
+
+---
 
 ### Emphasis
 Add emphasis to words using italics, bold, or both.
@@ -120,6 +126,8 @@ ___both___
 __*both*__  
 **_both_**
 
+---
+
 ### Strikethroughs
 Use two tildes before and after to strikethrough words
 
@@ -130,6 +138,8 @@ Use two tildes before and after to strikethrough words
 Rendered output:
 
 ~~Life does not exist on other planets.~~
+
+---
 
 ### Lists
 #### Ordered Lists
@@ -228,6 +238,8 @@ The rendered output:
 - [x] Setup notebook
 - [ ] Process samples
 
+---
+
 ### Code
 Use tick marks to denote something as code.
 
@@ -239,6 +251,8 @@ The rendered output:
 
 `pwd`
 
+---
+
 ### Code Blocks
 Use three tick marks (```) or three tildes (~~~) before and after code to create code blocks.
 
@@ -246,6 +260,8 @@ The rendered output:
 
 ```
 ```
+
+---
 
 ### Horizontal Lines
 Use three or more dashes, underscores, or asterisks on a line by themselves.
@@ -258,7 +274,7 @@ ___
 ***
 ```
 
-The rendered output:
+The rendered output is the horizontal lines displayed on this web page. 
 
 ---
 
@@ -304,6 +320,7 @@ The rendered output:
 | -------- | :------- | -------: | :------: |
 | default  |   left   |   right  | centered |
 
+---
 
 ### Links
 Place the link text in brackets followed by the URL in parentheses.
@@ -316,6 +333,8 @@ The rendered output:
 
 For more Markdown syntax go to [this site](https://www.markdownguide.org/).
 
+---
+
 ### Images
 To insert an image:
 
@@ -326,7 +345,7 @@ To insert an image:
 The rendered output:
 ![](/assets/img/ship_deck.png)
 
-### Images with Links
+#### Images with Links
 To add a link to an image:
 
 ```
@@ -335,6 +354,8 @@ To add a link to an image:
 
 The rendered output:
 [![](/assets/img/ship_deck.png)](https://github.com/brockml/brockml.github.io/blob/master/assets/img/ship_deck.png)
+
+---
 
 ### Escaping Characters
 Use a backslash in front of a character to display a literal character that would've been used to format text in Markdown.
@@ -362,7 +383,7 @@ Displayed: To calculate the kinetic energy of an object use the formula: $$KE = 
 
 The rendered output:
 
-Inline: Atmospheric $$CO_2$$ concentration is currently 410 ppm.
+Inline: Atmospheric $$CO_2$$ concentration is currently 410 ppm.  
 Displayed: To calculate the kinetic energy of an object use the formula: 
 
 $$KE = \frac{1}{2}mv^2$$
